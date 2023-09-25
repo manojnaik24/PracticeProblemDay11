@@ -13,6 +13,7 @@ namespace practiceproblemDay11
             Console.WriteLine("Enter the Problem Number");
             Console.WriteLine("1. Printing Rever triangle" +
                 "\n2. Square pattern"+
+                "\n3. Reverse String"+
                 "\n0. Exit");
             int m=int.Parse(Console.ReadLine());
             if(m==0)
@@ -32,6 +33,11 @@ namespace practiceproblemDay11
                         case 2:
                         SquarPattercs s=new SquarPattercs();
                         s.Square();
+                        break;
+
+                        case 3:
+                        ReverseString r=new ReverseString();
+                        r.Reverse();
                         break;
                 }
             }
