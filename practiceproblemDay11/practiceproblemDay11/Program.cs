@@ -14,6 +14,7 @@ namespace practiceproblemDay11
             Console.WriteLine("1. Printing Rever triangle" +
                 "\n2. Square pattern"+
                 "\n3. Reverse String"+
+                "\n4. Sum of Number"+
                 "\n0. Exit");
             int m=int.Parse(Console.ReadLine());
             if(m==0)
@@ -38,6 +39,11 @@ namespace practiceproblemDay11
                         case 3:
                         ReverseString r=new ReverseString();
                         r.Reverse();
+                        break;
+                        
+                        case 4:
+                        SumOfNumber ss=new SumOfNumber();
+                        ss.sum();
                         break;
                 }
             }
