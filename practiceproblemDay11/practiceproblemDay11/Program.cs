@@ -18,6 +18,7 @@ namespace practiceproblemDay11
                 "\n6. Printing Duplicat Element "+
                 "\n7. Printing Uniqe Number"+
                 "\n8. Frequency"+
+                "\n9. Maximum and Minimum Number in array"+
                 "\n0. Exit");
             int m=int.Parse(Console.ReadLine());
             if(m==0)
@@ -62,6 +63,11 @@ namespace practiceproblemDay11
                         case 8:
                         Frequency frequency=new Frequency();
                         frequency.Fun();
+                        break;
+
+                        case 9:
+                        MaxAndMin min=new MaxAndMin();
+                        min.Max();
                         break;
                 }
             }
