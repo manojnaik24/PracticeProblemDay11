@@ -15,6 +15,7 @@ namespace practiceproblemDay11
                 "\n2. Square pattern"+
                 "\n3. Reverse String"+
                 "\n4. Sum Of Each Row"+
+                "\n6. Printing Duplicat Element "+
                 "\n0. Exit");
             int m=int.Parse(Console.ReadLine());
             if(m==0)
@@ -44,6 +45,11 @@ namespace practiceproblemDay11
                         case 5:
                         SumOfEachRow sum=new SumOfEachRow();
                         sum.SumOf();
+                        break;
+
+                        case 6:
+                        DuplicateElements duplicate=new DuplicateElements();
+                        duplicate.Duplicat();
                         break;
                 }
             }
