@@ -16,6 +16,7 @@ namespace practiceproblemDay11
                 "\n3. Reverse String"+
                 "\n4. Sum Of Each Row"+
                 "\n6. Printing Duplicat Element "+
+                "\n7. Printing Uniqe Number"+
                 "\n0. Exit");
             int m=int.Parse(Console.ReadLine());
             if(m==0)
@@ -50,6 +51,11 @@ namespace practiceproblemDay11
                         case 6:
                         DuplicateElements duplicate=new DuplicateElements();
                         duplicate.Duplicat();
+                        break;
+
+                        case 7:
+                        PrintUniqeNumber printUniqeNumber=new PrintUniqeNumber();
+                        printUniqeNumber.Print();
                         break;
                 }
             }
