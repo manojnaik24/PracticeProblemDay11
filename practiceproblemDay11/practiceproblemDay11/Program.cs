@@ -17,6 +17,7 @@ namespace practiceproblemDay11
                 "\n4. Sum Of Each Row"+
                 "\n6. Printing Duplicat Element "+
                 "\n7. Printing Uniqe Number"+
+                "\n8. Frequency"+
                 "\n0. Exit");
             int m=int.Parse(Console.ReadLine());
             if(m==0)
@@ -56,6 +57,11 @@ namespace practiceproblemDay11
                         case 7:
                         PrintUniqeNumber printUniqeNumber=new PrintUniqeNumber();
                         printUniqeNumber.Print();
+                        break;
+
+                        case 8:
+                        Frequency frequency=new Frequency();
+                        frequency.Fun();
                         break;
                 }
             }
